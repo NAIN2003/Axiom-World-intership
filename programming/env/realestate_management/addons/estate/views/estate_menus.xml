@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <!-- Root Menu -->
+        <menuitem id="menu_estate" name="Real-Estate" sequence="10">
+
+            <!-- First Level Menu -->
+            <menuitem id="menu_advertisement" name="Advertisement" sequence="10">
+
+                <!-- Second Level Menu -->
+                <menuitem id="menu_properties" name="Properties" sequence="10" action="action_estate_property"/>
+
+            </menuitem>
+
+        </menuitem>
+
+    </data>
+</odoo>
